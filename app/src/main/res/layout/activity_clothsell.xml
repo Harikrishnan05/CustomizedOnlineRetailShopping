@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".clothsellActivity"
+    android:background="#CCD1D1">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/Eon"
+        android:hint="Upload photo"
+        android:onClick="up"
+        android:id="@+id/upi"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:hint="Enter Mail id"
+        android:ems="10"
+        android:layout_marginTop="150dp"
+        android:id="@+id/Mai"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:id="@+id/Ename"
+        android:ems="10"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter contat num"
+        android:ems="10"
+        android:layout_below="@+id/Ename"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/Econ"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter price"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/Econ"
+        android:id="@+id/Epr"
+        android:ems="10"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Epr"
+        android:layout_centerHorizontal="true"
+        android:hint="Old or New "
+        android:id="@+id/Eon"
+        android:ems="10"
+        />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_below="@+id/upi"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>
